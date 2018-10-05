@@ -14,7 +14,7 @@ Utilizando HTML, CSS y Javascript programe los siguientes formularios:
     * Convertir a libras
   * Una caja de texto (solo lectura): para mostrar el resultado
   El programa convertirá la cantidad en pesos al tipo de moneda que seleccione el usuario.
-  * Programar un formulario que contenga:
+ * Programar un formulario que contenga:
     * Un select con los días de la semana
     * Una caja de texto en la que se capturará el número de películas a rentar
     * Una caja de texto para mostrar el resultado.
@@ -24,7 +24,7 @@ Utilizando HTML, CSS y Javascript programe los siguientes formularios:
     * Miércoles 10% de descuento
     * Para el resto de los días no hay promoción. 
   El costo de cada película es de 47 pesos
-  * Programar un formulario que permita capturar una calificación numérica y la convierta a una escala de letras de acuerdo a lo siguiente:
+* Programar un formulario que permita capturar una calificación numérica y la convierta a una escala de letras de acuerdo a lo siguiente:
    * Las calificaciones 0 - 5 corresponden a C
    * Las calificaciones 6 y 7 a B
    * Las calificaciones 8 y 9 a A
