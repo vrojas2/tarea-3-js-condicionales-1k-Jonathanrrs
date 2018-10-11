@@ -1,13 +1,17 @@
 var inputSaldo = document.querySelector('#saldo');
 var inputRetirar = document.querySelector('#retirar');
-btnRetiro = document.querySelector('#retiro');
-btnRetiro.addEventListener('clic', retiro);
+var pResultado = document.querySelector('#resultado');
+btnRetiro = document.querySelector('#btnRetiro');
+btnRetiro.addEventListener('click', retiro);
 
 function retiro () {
-  
-       var Saldo = Number(inputSaldo.value);
-       var Retirar = Number(inputRetirar.value);
-       if(Saldo > Retirar)
+       var saldo = Number(inputSaldo.value);
+       var retirar = Number(inputRetirar.value);
+       if(saldo > retirar) {
+           pResultado.textContent = 'Retiro exitoso, tu saldo ahora es' + " " + (saldo-retirar);
+       }
+       else {
+           pResultado.textContent = 'Saldo insuficiente';
+       }
        
-
 }
