@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <form>
+        <div>
+            <label for="pesos">Cantidad en pesos: </label>
+            <input type="number" id="pesos">
+        </div>
+        <div>
+            <select id="opciones">
+                <option value="">-- Selecciona una opción --</option>
+                <option value="dolar">Calcular en dolares</option>
+                <option value="euro">Calcular en euros</option>
+                <option value="libra">Calcular en libras</option>
+            </select>
+        </div>
+        <div>
+            <label for="resultado">Resultado</label>
+            <input type="text" id="resultado" readonly>
+        </div>
+    </form>
+</body>
+<script src="programa-5.js"></script>
+</html>
